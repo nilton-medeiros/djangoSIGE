@@ -16,7 +16,7 @@ Projeto independente open-source desenvolvido em Python 3 no Windows, testado no
 
 ## Minhas observações: Antes da instalação
 
-Apanhei muito para instalar e rodar o aplicativo, então resolvi postar aqui os macetes antes da instalação padrão, siga os passos abaixo se for instalar no Linux Mint ou Ubuntu, fiz as instalações usando o Linux Mint 20 Cinnamon, no Windows 10 não consegui instalar devido a muitos erros e dependências, caso alguém tenha conseguido, por favor, poste os passos aqui, faça um Fork ou Issues.
+Apanhei muito para instalar e rodar o aplicativo, então resolvi postar aqui os macetes antes da instalação padrão, siga os passos abaixo se for instalar no Linux Mint ou Ubuntu, fiz as instalações usando o Linux Mint 20 Cinnamon, no Windows 10 não consegui instalar devido a muitos erros e dependências, caso alguém tenha conseguido, utilize [Issues](https://github.com/nilton-medeiros/djangoSIGE/issues) ou via email nilton@sistrom.com.br.
 
 1. Clonar do gitHub o projeto djangoSIGE para a pasta de projetos:
 
