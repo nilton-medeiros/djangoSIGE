@@ -14,7 +14,81 @@ Projeto independente open-source desenvolvido em Python 3 no Windows, testado no
 - [apache2](https://www.apache.org/) (Opcional)
 - [mod_wsgi](https://modwsgi.readthedocs.io/en/develop/) (Opcional)
 
-## Instalação:
+## Minhas observações: Antes da instalação
+
+Apanhei muito para instalar e rodar o aplicativo, então resolvi postar aqui os macetes antes da instalação padrão, siga os passos abaixo se for instalar no Linux Mint ou Ubuntu, fiz as instalações usando o Linux Mint 20 Cinnamon, no Windows 10 não consegui instalar devido a muitos erros e dependências, caso alguém tenha conseguido, por favor, poste os passos aqui, faça um Fork ou Issues.
+
+1. Clonar do gitHub o projeto djangoSIGE para a pasta de projetos:
+
+    ```bash
+	    https://github.com/thiagopena/djangoSIGE.git
+   ``` 
+   ou
+    ```bash
+	    https://github.com/nilton-medeiros/djangoSIGE.git
+    ```
+
+2. No terminal do PyCharm ou no prompt, vá para a pasta raiz do projeto “djangoSIGE”, atualizar o  PIP:
+
+    ```bash
+	    python3 -m pip install -U pip –user
+    ```
+   
+3. Instalar as  bibliotecas/pacotes abaixo:
+
+    ```bash
+	    sudo apt install libxml2
+	    sudo apt install gcc
+	    sudo apt install python3-dev
+	    sudo apt install -y libxml2-dev libxslt1-dev zlib1g-dev python3-pip
+    ```
+
+4. Atualizar bibliotecas:
+
+    ```bash
+	    sudo apt update
+    ```
+
+5. Finalmente, instale as dependências:
+
+    ```bash
+	    pip3 install -r requirements.txt
+    ```
+   
+6. Rodar o env_gen.py:
+    
+   ```bash
+	    python3 contrib/env_gen.py
+   ```
+
+7. Migrate:
+
+    ```bash
+	    python3 manage.py migrate
+    ```
+
+8. Criar o super usuário:
+
+    ```bash
+	    python3 manage.py createsuperuser
+    ```
+
+9. O grande final:
+
+    ```bash
+	    python3 manage.py runserver
+    ```
+   
+10. Execute no localhost:
+
+    ```bash   
+     http://127.0.0.1:8000/login/
+    ```   
+    
+Segue abaixo a instalação original, se até aqui você conseguiu executar sem problemas o djangoSIGE então não é preciso rodar os comandos abaixo, porem leia atentamente as recomendações do Thiago.  
+
+
+## Instalação (original):
 
 1. Instalar dependências:
 
