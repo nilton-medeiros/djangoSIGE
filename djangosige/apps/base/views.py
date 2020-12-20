@@ -29,8 +29,7 @@ class IndexView(TemplateView):
         quantidade_cadastro['fornecedores'] = Fornecedor.objects.all().count()
         quantidade_cadastro['produtos'] = Produto.objects.all().count()
         quantidade_cadastro['empresas'] = Empresa.objects.all().count()
-        quantidade_cadastro[
-            'transportadoras'] = Transportadora.objects.all().count()
+        quantidade_cadastro['transportadoras'] = Transportadora.objects.all().count()
         context['quantidade_cadastro'] = quantidade_cadastro
 
         agenda_hoje['orcamento_venda_hoje'] = OrcamentoVenda.objects.filter(
