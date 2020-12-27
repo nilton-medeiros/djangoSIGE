@@ -14,10 +14,10 @@ EMAIL_HOST = 'smtp.gmail.com'  # Gmail
 # EMAIL_HOST = 'smtp.live.com' #Hotmail
 
 # Usuário do email padrão
-EMAIL_HOST_USER = 'niltongmedeiros@gmail.com'
+EMAIL_HOST_USER = ''
 
 # Senha do email padrão
-EMAIL_HOST_PASSWORD = 'Ngm'
+EMAIL_HOST_PASSWORD = ''
 
 # Verificar a port utilizada pelo serviço de email
 EMAIL_PORT = 587
